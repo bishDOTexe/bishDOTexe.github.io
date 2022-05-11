@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: bishDOTexe Blog
-email: bishdotexe@example.com
+title: bishDOTexe Hacking Blog
+email: bishdotexe@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This site is a work in progress. The objective is to create a repository for red-team/pentest blog posts and knowledge articles. 
   Stay tuned!
