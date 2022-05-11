@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Posts
-permalink: /posts/
+title: Extras
+permalink: /extras/
 ---
 
-This is a test
+This is mostly a test to see how additional pages are setup. You can ignore this page mostly for now lol.
