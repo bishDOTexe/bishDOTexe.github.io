@@ -4,5 +4,5 @@ title: Extras
 permalink: /extras/
 ---
 
-This is a test.
+TryHackMe Banner:
 <script src="https://tryhackme.com/badge/1066519"></script>
