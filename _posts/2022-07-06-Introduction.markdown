@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "bishDOTexe Introduction"
+date:   2022-07-06 09:17:00 -0400
+categories: introduction
+permalink: /posts/Introduction
+---
+
 Hello World/Blog!
 
 Being my first post, a bit of an introduction is in order.
