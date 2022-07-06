@@ -3,7 +3,7 @@ layout: post
 title:  "bishDOTexe Introduction"
 date:   2022-07-06 09:17:00 -0400
 categories: introduction
-permalink: /posts/Introduction
+permalink: /posts/bishDOTexe_Introduction
 ---
 
 Hello World/Blog!
