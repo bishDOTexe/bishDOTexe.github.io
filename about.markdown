@@ -4,8 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Updates for this page coming soon 
-Until then, reference intro post: https://bishdotexe.github.io/posts/bishDOTexe_Introduction
+Updates for this page coming soon.
+
+Until then, reference Sam's [intro-post]
 
 {% comment %}
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
@@ -21,3 +22,5 @@ You can find the source code for Jekyll at GitHub:
 
 [jekyll-organization]: https://github.com/jekyll
 {% endcomment %}
+
+[intro-post]: https://bishdotexe.github.io/posts/bishDOTexe_Introduction
