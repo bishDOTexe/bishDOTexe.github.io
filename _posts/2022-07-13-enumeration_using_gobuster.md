@@ -24,7 +24,8 @@ This is where directory enumeration comes into play.
 As a practical example, lets say that during an nmap scan of 10.10.2.0/24, you identify open http/https ports 80/443 on 10.10.2.5. 
 Because of this, you navigate to 10.10.2.5 within a web browser. 
 You could begin randomly appending '/admin' or '/login' to the end of the URL to see if anything exists and successfully loads a page. 
-Or, you could install and utilize a directory enumeration tool such as 'gobuster'.
+Despite your greatest efforts, this will turn out to be quite time consuming.
+To alleviate this burden, you can install and utilize a directory enumeration tool such as 'gobuster' to do the work for you.
 
 <h1>gobuster Installation</h1>
 
@@ -94,7 +95,7 @@ From our practical example at the beginning of this post, the required syntax wo
 ```
 
 <i> - In addition to the above default dirbuster wordlist directory, you can also reference other great publicly available wordlists for use! 
-One example is [SecLists], a popular public GitHub repo. Feel free to download and experiement with any wordlist you're able to find (since the provided is just one example of many) and see which you find most useful! - s</i>
+One example is [SecLists], a popular public GitHub repo. Feel free to download and experiement with any wordlist you're able to find (since the provided is just one example of many) and see which you find most useful! - </i>
 
 Once the initial directory completes, any sub-directories you find that look particularly interesting can be expanded upon by performing another gobuster dir scan. For example, if '/admin' was found from the initial scan, you can run another specifying '10.10.2.5/admin' to perform a more granular directory enumberation scan seen below.
 
