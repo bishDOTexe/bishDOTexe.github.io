@@ -44,9 +44,9 @@ As of the time of publishing this article, gobuster is currently on stable publi
 gobuster version
 ```
 
-<b> - Be Advised - 
+<b> - Be Advised - </b>
 
-This tool is quite noisy and aggressive. Only use this tool against domains you have written authority to scan against.</b>
+<b>This tool is quite noisy and aggressive. Only use this tool against domains you have written authority to scan against.</b>
 
 <h1>gobuster Command Modules Overview</h1>
 
@@ -93,7 +93,7 @@ From our practical example at the beginning of this post, the required syntax wo
 ```
 
 <i> - In addition to the above default dirbuster wordlist directory, you can also reference other great publicly available wordlists for use! 
-One example is [SecLists], a popular public GitHub repo. Feel free to download and experiement with any wordlist you're able to find (since the provided is just one example of many) and see which you find most useful!</i>
+One example is [SecLists], a popular public GitHub repo. Feel free to download and experiement with any wordlist you're able to find (since the provided is just one example of many) and see which you find most useful! - s</i>
 
 Once the initial directory completes, any sub-directories you find that look particularly interesting can be expanded upon by performing another gobuster dir scan. For example, if '/admin' was found from the initial scan, you can run another specifying '10.10.2.5/admin' to perform a more granular directory enumberation scan seen below.
 
