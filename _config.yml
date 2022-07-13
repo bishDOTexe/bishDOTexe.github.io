@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Bish-Bytes Blog
+title: Sam's 'Bish-Bytes'
 email: bishdotexe@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This blog is a collection of my practical studies, research, script/tool creation, etc. Feel free to follow me along the way!
