@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Directory Enumeration Using 'gobuster'"
+title:  "Directory Enumeration using 'gobuster'"
 date:   2022-07-13 08:40:00 -0400
 categories: enumeration, gobuster
 permalink: /posts/directory_enumeration_using_gobuster
@@ -9,8 +9,8 @@ permalink: /posts/directory_enumeration_using_gobuster
 
 <h1>Enumeration Explained</h1>
 
-Enumeration is a vital part of the Ethical Hacker Methodology step known as reconnaisance. 
-To put it plain and simple, you want as much information as possible in order to effectively attack your target. Agree? Agree. 
+Enumeration is a vital part of the Ethical Hacker Methodology step known as reconnaissance. 
+To put it plain and simple, you want as much information as possible in order to effectively attack your target. Agree? Agree! 
 
 First, lets define what Enumeration is. [Enumeration] is the act or process of making or stating a list of things one after another.
 This could means making a list of potential vulnerabilites, potential weaknesses, etc. 
@@ -30,8 +30,9 @@ Or, you could install and utilize a directory enumeration tool such as 'gobuster
 
 One specific tool that can help us as Ethical Hackers perform website enumeration is a tool I have grown quite fond of - gobuster. G
 obuster is written in the language 'go' which was developed by Engineers at Google being statically typed and similar to the C programming language. 
-Due to the availability within the Linux OS and package installers, the latest version may not always be available. 
-A separate install of 'go' must be installed and the updated GitHub repository pulled from [HERE]. See here for basic install instructions. 
+Due to the availability within some distros of linux OS and select package installers, the latest version may not always be installed directly. 
+A separate install of 'go' can be performed and the updated GitHub repository pulled from [HERE]. 
+See basic linux package install instructions below. 
 
 ```
 sudo apt install gobuster
@@ -46,7 +47,7 @@ gobuster version
 
 <b> - Be Advised - </b>
 
-<b>This tool is quite noisy and aggressive. Only use this tool against domains you have written authority to scan against.</b>
+<b>This tool is quite noisy and aggressive. Only use this tool against domains you have written authority to scan.</b>
 
 <h1>gobuster Command Modules Overview</h1>
 
@@ -73,7 +74,7 @@ Available Commands:
 <h1>gobuster 'dir' Command Module</h1>
 
 Before we begin, it's important for us to investigate and verify the required and optional flags when using the dir module in gobuster. 
-These can be found from again utilizing the '--help' flag after specifying dir. Due to the lengthy output, I will only include the syntax to view the flags below:
+These can be found from again utilizing the '--help' flag after specifying dir. Due to the lengthy output, I will only include the syntax to view the flags below. For an in-depth look at all 'dir' flags, use this [direct-link] to the GitHub repo page.
 
 ```
 ┌──(kali㉿kali)-[~]
@@ -105,8 +106,13 @@ Another helpful flag for directory enumeration is the '-o' flag to output the re
 Keep in mind, the output flag will require a directory specification, or simply a file name if you'd like the output to save to the current working directory.
 
 Maintaing a standard of outputting results to a file for future reference is extremely important as well for maintaining good notes. 
-During enumeration, and again referencing our initial definition from websters, your whole goal is to create and map out lists of gathered information. 
+During enumeration, and again referencing our initial definition from websters, your entire goal is to create a list and map out gathered information to understand and learn as much as possible about your target. Not only to make your pentest easier, but also to provide your client with as much detailed information you learn through the process. There is no such thing as too much information during the reconnaissance phase! 
+
+<h1>Conclusion</h1>
+
+As you can see, gobuster is an extremely powerful yet lightweight tool for enumerating directories within a web server! As I continue to progress in my pentesting career, I may come back to update this article with further use cases and information. If you feel I have incorrectly cited information, please feel free to reach me at my email in the blog page footer. Thank you for reading!
 
 [Enumeration]: https://www.merriam-webster.com/dictionary/enumeration
 [HERE]: https://github.com/OJ/gobuster/
 [SecLists]: https://github.com/danielmiessler/SecLists
+[direct-link]: https://github.com/OJ/gobuster#dir-mode-options
