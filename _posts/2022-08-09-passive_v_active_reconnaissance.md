@@ -102,7 +102,6 @@ Feel free to reference an utilize the mini mind-map I've put together below for 
 
 
 ![Image](https://github.com/bishDOTexe/my-images/blob/792e147ac6fefa654a998b6ab00ce36fbe28368f/Recon_mind-map.jpg?raw=true)
-<img title="recon-mind-map" src="https://github.com/bishDOTexe/my-images/blob/792e147ac6fefa654a998b6ab00ce36fbe28368f/Recon_mind-map.jpg">
 
 
 [Reconnaissance]: https://www.merriam-webster.com/dictionary/reconnaissance
