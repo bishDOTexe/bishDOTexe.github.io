@@ -76,9 +76,9 @@ Because of this, active reconnaissance is malicious if not within the confines o
 
 Active recon can be performed in a multitude of ways. 
 One of the most well known and utilized tools is Network Mapper, otherwise known as 'nmap.' 
-[Nmap] is a command line tool utilized for scanning and enumerating on network IP addresses and IP address ranges. 
+Nmap is a command line tool utilized for scanning and enumerating on network IP addresses and IP address ranges. 
 With a multitude of features, nmap can scan open ports on a single host, or all hosts within a specified subnet at different speeds/variations/etc. 
-An entire blog post could be written on nmap alone. However, here's a link to the nmap-documentation to check out the details!
+An entire blog post could be written on nmap alone. However, here's a link to the [nmap-documentation] to check out the details!
 
 
 One other well known active reconnaissance tool is [Nessus]. 
@@ -111,6 +111,6 @@ Feel free to reference an utilize the mini mind-map I've put together below for 
 [advanced-searching]: https://google.com/advanced_search
 [Shodan]: https://shodan.io/
 [WiGLE]: https://wigle.net/
-[Nmap]: https://nmap.org/book/man.html#man-description
+[nmap-documentation]: https://nmap.org/book/man.html#man-description
 [Nessus]: [https://](https://www.tenable.com/products/nessus
 [GitHub-OSINT]: https://github.com/topics/osint
