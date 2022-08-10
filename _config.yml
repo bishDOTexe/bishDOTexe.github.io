@@ -18,15 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Sam's `Bish-Bytes`
+title: Sam's Bish-Bytes
 email: bishdotexe@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This blog is a collection of my practical studies, research, script/tool creation, etc. Feel free to follow me along the way!
+  This blog is a collection of my practical studies, research, script/tool creation, CTF write-ups, etc. Feel free to follow me along the way!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bishDOTexe
 github_username: bishDOTexe
-medium_username: bishDOTexe
 
 # Build settings
 theme: minima
