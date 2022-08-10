@@ -101,7 +101,7 @@ There are tons of great community built tools to install and utilize!
 Feel free to reference an utilize the mini mind-map I've put together below for additional reference to tools and recon methodology.
 
 
-<img title="recon-mind-map" src="https://github.com/bishDOTexe/my-images/blob/main/Recon_mind-map.jpg">
+<img title="recon-mind-map" src="https://github.com/bishDOTexe/my-images/blob/792e147ac6fefa654a998b6ab00ce36fbe28368f/Recon_mind-map.jpg">
 
 
 [Reconnaissance]: https://www.merriam-webster.com/dictionary/reconnaissance
