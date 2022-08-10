@@ -6,7 +6,7 @@ categories: reconnaissance, OSINT
 permalink: /posts/passive_v_active_reconnaissance
 ---
 
-What is Reconnaissance? 
+<h2>What is Reconnaissance?</h2>
 
 
 Webster's defines [Reconnaissance] as 'a preliminary survey to gain information.' 
@@ -16,7 +16,7 @@ The key to good reconnaissance is knowing the fine boundary between active recon
 Within this blog post, I will describe both and teach you how to determine the difference.
 
 
--- Passive Reconnaissance -- 
+<h2>-- Passive Reconnaissance --</h2>
 
 
 The act of performing reconnaissance passively is tricky. 
@@ -60,7 +60,7 @@ search SSID specifically, filter on density, etc. Properly known by the tagline 
 WiGLE is a powerful passive recon tool if the geo-location of your target has already been obtained and is known. 
 
 
--- Active Reconnaissance --
+<h2>-- Active Reconnaissance --</h2>
 
 
 Compared to passive, active reconnaissance can be a bit more fun. 
@@ -90,7 +90,7 @@ These reports can be vital when drafting a final write-up for a client presentat
 Nessus does however require a license for professional level features, yet is a must-have for any professional Penetration Tester's arsenal. 
 
 
--- Conclusion and Summary -- 
+<h2>-- Conclusion and Summary --</h2>
 
 
 Effective Reconnaissance uses many, if not all, OSINT tools to gather and obtain as much information as possible. 
