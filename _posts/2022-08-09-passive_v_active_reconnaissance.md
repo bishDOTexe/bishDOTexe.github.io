@@ -98,6 +98,10 @@ Since each tool is unique, one tool or resource may pull different information t
 There's no such thing as too much information during the reconnaissance phase. 
 For further tools that weren't mentioned in this post, check out the [GitHub-OSINT] topic. 
 There are tons of great community built tools to install and utilize!
+Feel free to reference an utilize the mini mind-map I've put together below for additional reference to tools and recon methodology.
+
+
+![Alt text](https://github.com/bishDOTexe/my-images/blob/main/Recon_mind-map.jpg "a title")
 
 
 [Reconnaissance]: https://www.merriam-webster.com/dictionary/reconnaissance
